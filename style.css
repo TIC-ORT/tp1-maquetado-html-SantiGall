@@ -17,10 +17,17 @@ body {
     background-color: #9fd4ec;
   }
   .main {
-    
     height: 25em;
     width: 100%;
     position: fixed;
     bottom: 0;
+    background-color: #ffffff;
+  }
+  .incube {
+    height: 4em;
+    width: 15%;
+    position: fixed;
+    bottom: 53em;
+    left: 2.5em;
     background-color: #ffffff;
   }
