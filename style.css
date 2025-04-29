@@ -1,33 +1,23 @@
-body {
-    background-color: rgb(143, 143, 143);
-  }
-  .header {
-    height: 10em;
-    width: 100%;
-    position: fixed;
-    bottom: 50em;
-    background-color: #ffffff;
-  }
-  .article {
-    height: 10em;
-    width: 20%;
-    position: fixed;
-    bottom: 50em;
-    left: 0;
-    background-color: #9fd4ec;
-  }
-  .main {
-    height: 25em;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    background-color: #ffffff;
-  }
-  .incube {
-    height: 4em;
-    width: 15%;
-    position: fixed;
-    bottom: 53em;
-    left: 2.5em;
-    background-color: #ffffff;
-  }
+
+#header{
+  height: 6em;
+  width : 100%;
+  background-color: white;
+  margin: 0;
+}
+#main{
+  background-color: lightgrey;
+  width: 100%;
+  height: 17em;
+  margin: auto;
+}
+#article{
+  background-color: lightblue;
+  height: 100%;
+  width: 20%;
+}
+#incube{
+  background-color: white;
+  height: 50em;
+  width: 50em;
+}
