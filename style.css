@@ -1,4 +1,7 @@
 
+#body{
+  background-color: white;
+}
 #header{
   height: 6em;
   width : 100%;
@@ -10,14 +13,33 @@
   width: 100%;
   height: 17em;
   margin: auto;
+  display: flex;
+  justify-content: space-evenly;
 }
-#article{
+#cubitoazul{
   background-color: lightblue;
   height: 100%;
   width: 20%;
+  display: flex;
 }
 #incube{
   background-color: white;
-  height: 50em;
-  width: 50em;
+  height: 2em;
+  width: 10em;
+  margin: auto;
+  align-self: center;
+}
+#photo{
+  background-color: white;
+  height: 10em;
+  width: 10em;
+  align-self: center;
+  margin-left: 48em;
+}
+#footer{
+  background-color: lightblue;
+  margin: auto;
+  height: 90%;
+  width: 80%;
+  margin-bottom: 0;
 }
